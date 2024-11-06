@@ -1,0 +1,93 @@
+/* src/components/UserProfilesPage.css */
+
+/* Container for user profiles list */
+.user-profiles-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* List of users */
+  .user-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-item {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-item h3 {
+    font-size: 20px;
+    color: black;
+  }
+  
+  .user-item p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .view-more-btn {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: rgb(218, 205, 14);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-more-btn:hover {
+    background-color: #4eb300;
+  }
+  
+  /* Styling for the user details section */
+  .user-details {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+  }
+  
+  .user-details p {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .user-details a {
+    color: rgb(218, 205, 14);
+    text-decoration: none;
+  }
+  
+  .user-details a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 600px) {
+    .user-item {
+      padding: 10px;
+    }
+  
+    .view-more-btn {
+      padding: 6px 12px;
+      font-size: 12px;
+    }
+  }
+  

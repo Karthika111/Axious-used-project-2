@@ -1,0 +1,54 @@
+/* src/components/UserProfileDetailPage.css */
+
+.user-profile-detail-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Container for user details */
+  .user-profile-detail {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  /* Each detail item */
+  .user-detail-item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-detail-item strong {
+    font-weight: bold;
+    color: #4eb300;;
+  }
+  
+  .user-detail-item a {
+    color: #4eb300;;
+    text-decoration: none;
+  }
+  
+  .user-detail-item a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive layout */
+  @media (max-width: 600px) {
+    .user-profile-detail {
+      grid-template-columns: 1fr;
+    }
+  }
+  
